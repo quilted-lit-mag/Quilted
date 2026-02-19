@@ -10,11 +10,11 @@
 	font-family:'Bubblegum Sans', cursive; 
 	font-size:47px; font-weight: 1400;
 	-webkit-text-stroke: 0.25px white; */
-h1 
+header-img
 {
 	display: inline; 
 	vertical-align:top; 
-	margin-left:120px;
+	margin-left: 120px;
 	
 }
 h2
@@ -408,3 +408,4 @@ text-decoration: underline;
 color: #F8ECC4;
 
 }
+
