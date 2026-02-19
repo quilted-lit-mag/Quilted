@@ -10,7 +10,7 @@
 	font-family:'Bubblegum Sans', cursive; 
 	font-size:47px; font-weight: 1400;
 	-webkit-text-stroke: 0.25px white; */
-header-img
+.header-img
 {
 	display: inline; 
 	vertical-align:top; 
@@ -408,5 +408,6 @@ text-decoration: underline;
 color: #F8ECC4;
 
 }
+
 
 
