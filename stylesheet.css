@@ -6,17 +6,16 @@
 	padding: 0;
 }
 
-
+/*	color:#DEAB2B; 
+	font-family:'Bubblegum Sans', cursive; 
+	font-size:47px; font-weight: 1400;
+	-webkit-text-stroke: 0.25px white; */
 h1 
 {
 	display: inline; 
 	vertical-align:top; 
-	color:#DEAB2B; 
-	font-family:'Bubblegum Sans', cursive; 
-	font-size:47px; 
-	margin-left:380px;
-	font-weight: 1400;
-	-webkit-text-stroke: 0.25px white;
+	margin-left:120px;
+	
 }
 h2
 {
@@ -407,4 +406,5 @@ footer a:hover
 {
 text-decoration: underline;
 color: #F8ECC4;
+
 }
