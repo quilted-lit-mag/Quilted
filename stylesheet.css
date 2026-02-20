@@ -127,6 +127,7 @@ img
 	justify-content: center;
 	padding-left: 100px;
 	padding-right: 270px;
+
 	
 }
 
@@ -183,10 +184,12 @@ img
 	color: #EFEFF1;
 	text-decoration: underline;
 }
+
 /*.navbar ul li:last-child a
 {
 	margin-left: 10px;
 }*/
+
 .partone .container
 {
 display: inline-flex;
@@ -483,6 +486,7 @@ text-decoration: underline;
 color: #F8ECC4;
 
 }
+
 
 
 
