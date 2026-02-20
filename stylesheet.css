@@ -123,9 +123,10 @@ img
 	padding-bottom: 5px;
 	height: 120px;
 	display: flex;
-	align-items: center-left;
-	justify-content: center-left;
-	padding-left: 290px;
+	align-items: center;
+	justify-content: center;
+	padding-left: 100px;
+	padding-right: 270px;
 	
 }
 
@@ -482,6 +483,7 @@ text-decoration: underline;
 color: #F8ECC4;
 
 }
+
 
 
 
