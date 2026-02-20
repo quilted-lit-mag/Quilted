@@ -77,37 +77,111 @@ img
 {
 	max-width:100%;
 	background-color: #AF8FB9;
-	padding: 10px;
+	padding: 5px;
 	margin: 0;
 	
 	;
 }
+.navbar .container
+{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+/* Logo: fixed size, no shrink */
+.navbar .logo
+{
+	flex-shrink: 0;
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.navbar .logo img
+{
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+	vertical-align:top;
+}
+
+/* Header: stacks header-img and main-menu vertically, takes remaining space */
+.navbar .header
+{
+	display: flex;
+	flex-direction: column;
+	
+	flex: 1;
+}
+
+/* Header image: 60px tall, maintains aspect ratio, no stretch */
+.navbar .header-img
+{
+
+	padding-bottom: 5px;
+	height: 120px;
+	display: flex;
+	align-items: center-left;
+	justify-content: center-left;
+	padding-left: 290px;
+	
+}
+
+.navbar .header-img a
+{
+	display: flex;
+	height: 150px;
+}
+
+.navbar .header-img img
+{
+	height: 150px;
+	width: auto;
+	object-fit: contain;
+}
+
+/* Buttons row: equal-width blocks directly below header image */
+.navbar .main-menu
+{
+	width: 100%;
+	margin-top: 9px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 .navbar .main-menu ul
 {
 	display: flex;
-padding-left: 400px;
+	gap: 8px;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
+
+.navbar .main-menu ul li
+{
+	flex: 1;
+}
+
 .navbar ul li a
 {
-	padding: 10px 0px;
+	padding: 8px 0;
 	display: block;
 	font-weight: 550;
 	transition: 0.5s;
-	color:#F8ECC4;
-	
+	color: #F8ECC4;
+	text-align: center;
+	width: 100px;
 }
+
 .navbar ul li a:hover
 {
 	color: #EFEFF1;
 	text-decoration: underline;
 }
-.navbar .container
-{
-	display: flex;
-	justify-content: space-between;
-	align-items:center;
-}
-
 /*.navbar ul li:last-child a
 {
 	margin-left: 10px;
@@ -408,6 +482,7 @@ text-decoration: underline;
 color: #F8ECC4;
 
 }
+
 
 
 
